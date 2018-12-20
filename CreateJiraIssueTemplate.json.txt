@@ -1,0 +1,15 @@
+{
+	"fields":{
+		"project":{
+			"key": "$projectkey"
+		},
+		"summary": $Summary,
+		"description": "$description",
+		"priority":{
+						"name": "$priority"
+				},
+		"issuetype": {
+			"name": "$issuetype"
+		}
+	}	
+}
