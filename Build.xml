@@ -9,14 +9,14 @@
 	<!-- Define the SonarQube global properties (the most usual way is to pass these properties via the command line) -->
 	<property name="sonar.host.url" value="http://localhost:9000" />
 
-	<!-- Define the Sonar properties -->
+	<!-- Define the Sonar properties 
 	<property name="sonar.projectKey" value="org.sonarqube:sonarqube-scanner-ant" />
 	<property name="sonar.projectName" value="Example of SonarQube Scanner for Ant Usage" />
 	<property name="sonar.projectVersion" value="1.0" />
 	<property name="sonar.language" value="java" />
 	<property name="sonar.sources" value="src" />
 	<property name="sonar.binaries" value="target" />
-	<property name="sonar.sourceEncoding" value="UTF-8" />
+<property name="sonar.sourceEncoding" value="UTF-8" /> -->
 	
 	<!-- ========= Define "regular" targets: clean, compile, ... ========= -->
 	<target name="clean">
